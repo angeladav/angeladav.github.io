@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-page-container {
+    padding: 20px;
+}
+
+.navbar-page-link {
+    margin-right: 10px;
+    text-decoration: None;
+}
+
+.navbar-page-button {
+    font-family: "Lexend", sans-serif;
+    background-color: #F4F3ED;
+    height: 25px;
+    border: none;
+    font-size: 15px;
+    box-shadow: inset 0 0 0 0 #E0AFA1;
+    transition: ease-in-out 0.5s;
+    color: #463F3A;
+}
+
+.navbar-page-button:hover {
+    box-shadow: inset 0 -25px 0 0 #E0AFA1;
+    color: #F4F3ED;
+}
