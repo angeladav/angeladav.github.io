@@ -1,7 +1,8 @@
 function Home() {
     return (
         <div>
-            Home Page
+            <img src="../images/pictureofme.png">
+            </img>
         </div>
     );
 }
