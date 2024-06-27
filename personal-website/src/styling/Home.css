@@ -1,0 +1,53 @@
+.home {
+    padding-top: 30px;
+}
+
+.home-main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-photo {
+    width: 450px;
+}
+
+.home-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    align-items: start;
+}
+
+.home-title {
+    font-size: 60px;
+    text-shadow: 3px 3px 2px #E0AFA1;
+    color: #463F3A;
+    width: 70%;
+    line-height: 1.2;
+}
+
+.home-regular-text {
+    margin-top: 20px;
+    font-size: 20px;
+    color: #463F3A;
+    width: 70%;
+}
+
+.home-photo-container {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-right: 20px;
+}
+
+.home-social-media {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.home-icon {
+    width: 20px;
+}

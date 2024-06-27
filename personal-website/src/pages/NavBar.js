@@ -20,6 +20,11 @@ function NavBar() {
                         Resume
                     </button>
                 </Link>
+                <Link className="navbar-page-link" to="/contact">
+                    <button className="navbar-page-button">
+                        Contact
+                    </button>
+                </Link>
             </div>
         </div>
     )
