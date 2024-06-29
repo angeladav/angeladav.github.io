@@ -1,0 +1,145 @@
+#root {
+    height: 100%;
+}
+
+.aboutme {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.aboutme-title {
+    font-size: 60px;
+    text-shadow: 3px 3px 2px #E0AFA1;
+    color: #463F3A;
+    line-height: 1.2;
+    visibility: hidden;
+    animation: 1s ease-in-out 0.2s 1 forwards slideUp;
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+.aboutme-photo-container {
+    margin-top: 20px;
+    animation: 1s ease-in-out 0s 1 forwards slideUp;
+}
+
+.aboutme-photo {
+    width: 250px;
+}
+
+.aboutme-accordion {
+    font-size: 30px;
+    text-shadow: 1px 1px 2px #463F3A;
+    color: #F4F3ED;
+}
+
+.aboutme-accordion-container {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #E0AFA1;
+    visibility: hidden;
+    animation: 1s ease-in-out 0.3s 1 forwards slideUp
+}
+
+.aboutme-accordion-header-container {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.aboutme-accordion-icon-button {
+    background-color: transparent;
+    border: none;
+    transition: 0.4;
+}
+
+.aboutme-accordion-icon {
+    width: 30px;
+}
+
+.aboutme-accordion-content {
+    background-color: #E0AFA1;
+    max-height: 0px;
+    overflow: hidden;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: max-height 0.4s ease-in-out, opacity 0.3s ease-in-out;
+}
+
+.aboutme-accordion-content-text {
+    font-size: 20px;
+    padding: 10px 0px;
+    color: #463F3A;
+}
+
+.aboutme-accordion-skill-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.aboutme-accordion-skill-container-last {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.aboutme-accordion-skill-type {
+    width: 15%;
+    color: #F4F3ED;
+}
+
+.aboutme-accordion-project-title {
+    color: #F4F3ED;
+    text-shadow: 1px 1px 2px #463F3A;
+    font-size: 25px;
+    margin: 10px 0px;
+}
+
+.aboutme-accordion-project-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutme-accordion-project-content>* {
+    margin: 10px 0;
+}
+
+.aboutme-image {
+    width: 560px;
+    align-self: center;
+}
+
+.aboutme-link {
+    color: #463F3A;
+    transition: color 0.2s ease-in-out;
+}
+
+.aboutme-link:hover {
+    color: #F4F3ED;
+}
+
+@keyframes slideUp {
+    0% {
+        visibility: visible;
+        opacity: 0;
+        transform: translateY(15px);
+    }
+
+    100% {
+        visibility: visible;
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
