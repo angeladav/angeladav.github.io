@@ -21,9 +21,12 @@ function Home() {
             </div>
             <div className='home-social-media'>
                 <div className='home-icon-container'>
-                    <img className='home-icon' src="./images/linkedin.svg" />
-                    <img className='home-icon' src="./images/github.svg" />
-                    <img className='home-icon' src="./images/figma.svg" />
+                    <a href="https://www.linkedin.com/in/angela-davis19/">
+                        <img className='home-icon' src="./images/linkedin.svg" />
+                    </a>
+                    <a href="https://github.com/angeladav">
+                        <img className='home-icon' src="./images/github.svg" />
+                    </a>
                 </div>
             </div>
         </div>

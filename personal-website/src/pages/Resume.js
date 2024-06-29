@@ -17,7 +17,7 @@ function Resume() {
         ["left", "MAY 2023", "NORTHWESTERN UNIVERSITY", "Presented my research at the Undergraduate Research & Arts Expo.", "Link to a YouTube recording here!", "https://youtu.be/KIhaSSZzXfA"],
         ["left", "JUNE 2023", "CATERPILLAR INC.", "Returned to CAT Digital to work as a software engineering intern."],
         ["right", "JUNE 2024", "NORTHWESTERN UNIVERSITY", "Graduate Northwestern University with a B.S. in Computer Engineering and a M.S. in Computer Science."],
-        ["right", "AUGUST 2024", "CATERPILLAR INC.", "Returned to CAT Digital to work as a software engineering intern."]
+        ["right", "AUGUST 2024", "CATERPILLAR INC.", "Will work as a full-time software engineer at CAT Digital."]
 
 
 
@@ -43,7 +43,7 @@ function Resume() {
                 ))}
                 <span className='resume-timeline-rounded rounded-bottom'></span>
             </div>
-            <div className='resume-description'> A PDF of my resume can be downloaded <a href="" className="resume-link"> here </a> </div>
+            <div className='resume-description'> A PDF of my resume can be downloaded <a href="./files/resume.pdf" className="resume-link" download> here </a> </div>
         </div>
     );
 }
