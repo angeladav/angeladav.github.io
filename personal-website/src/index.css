@@ -1,3 +1,4 @@
+html,
 body {
   height: 100%;
   margin: 0;
@@ -5,6 +6,12 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #F4F3ED;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
 }
 
 code {

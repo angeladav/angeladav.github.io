@@ -7,6 +7,7 @@
     display: flex;
     flex-direction: column;
 
+
 }
 
 .resume-title {
@@ -150,7 +151,6 @@
     left: 50%;
     background-color: #8A817C;
     border-radius: 100%;
-
 }
 
 .rounded-top {
@@ -173,4 +173,47 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+@media only screen and (max-width: 1000px) {
+    .resume-timeline {
+        width: 80vw;
+    }
+
+    .resume-title {
+        width: 80vw;
+    }
+
+    .resume-timeline-description {
+        font-size: 10px;
+    }
+
+    .resume-timeline-date {
+        font-size: 20px;
+    }
+
+    .resume-timeline-location {
+        font-size: 12px;
+    }
+
+    .resume-timeline-text {
+        padding: 10px;
+    }
+
+    .right-arrow {
+        display: none;
+    }
+
+    .left-arrow {
+        display: none;
+    }
+
+    .mobile-right {
+        margin-left: 25px;
+    }
+
+    .mobile-left {
+        margin-right: 30px;
+    }
+
 }

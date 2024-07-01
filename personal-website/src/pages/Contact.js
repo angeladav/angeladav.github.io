@@ -27,11 +27,6 @@ function Contact() {
                 setSubject('');
                 setMessage('');
             }}>
-                {/* <div className='contact-name'>
-                    <textarea rows="1" className='contact-name-box' placeholder="First Name" />
-                    <textarea rows="1" className='contact-name-box' placeholder="Last Name" />
-                </div> */}
-                {/* <textarea rows="1" className='contact-email' placeholder="Email" /> */}
                 <textarea rows="1" className='contact-email' placeholder="Subject" value={subject}
                     onChange={(e) => setSubject(e.target.value)} />
                 <textarea rows="5" className='contact-message' placeholder="Write your message here!" value={message}

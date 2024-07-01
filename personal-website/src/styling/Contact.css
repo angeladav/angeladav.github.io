@@ -91,3 +91,17 @@ textarea {
         transform: translateY(0);
     }
 }
+
+@media only screen and (max-width: 1000px) {
+    .contact-form {
+        width: 100%;
+    }
+
+    .contact-title {
+        font-size: 50px;
+    }
+
+    .contact-submit-button {
+        width: 30vw;
+    }
+}

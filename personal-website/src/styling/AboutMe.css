@@ -118,6 +118,7 @@
 
 .aboutme-image {
     width: 560px;
+    height: 320px;
     align-self: center;
 }
 
@@ -141,5 +142,40 @@
         visibility: visible;
         opacity: 1;
         transform: translateY(0);
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .aboutme-accordion-content-text {
+        font-size: 10px;
+    }
+
+    .aboutme-title {
+        font-size: 40px;
+    }
+
+    .aboutme-accordion {
+        font-size: 25px;
+    }
+
+    .aboutme-accordion-project-title {
+        font-size: 20px;
+    }
+
+    .aboutme-accordion-skills {
+        width: 70%;
+    }
+
+    .aboutme-accordion-skill-container {
+        justify-content: space-between;
+    }
+
+    .aboutme-image {
+        width: 80%;
+        height: 40%;
+    }
+
+    .aboutme-accordion-skill-container-last {
+        justify-content: space-between;
     }
 }

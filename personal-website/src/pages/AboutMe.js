@@ -102,7 +102,7 @@ function AboutMe() {
                             <div className='aboutme-accordion-project-title'> RISC-V YouTube Explainer </div>
                             <div className='aboutme-accordion-project-content'>
                                 <div> With completely self-made visual assets and my own video editing skills, I scripted and put together a YouTube Explainer discussing basic computer architecture concepts and RISC-V. </div>
-                                <iframe className='aboutme-image' width="560" height="315" src="https://www.youtube.com/embed/Qx6shOnydLs?si=CWhVDwX4gq0JQ_ky" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                                <iframe className='aboutme-image' src="https://www.youtube.com/embed/Qx6shOnydLs?si=CWhVDwX4gq0JQ_ky" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                             </div>
                         </div>
 

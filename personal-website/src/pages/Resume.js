@@ -31,7 +31,7 @@ function Resume() {
                 {timeline_content.map((ev) => (
                     <div className={"resume-timeline-section " + ev[0] + "-section"}>
                         <img src='./images/timelinecircle.png' className={'resume-timeline-marker ' + ((ev[0] == "right") ? 'right-marker' : null)} />
-                        <div className="resume-timeline-text">
+                        <div className={"resume-timeline-text mobile-" + ev[0]}>
                             <div className='resume-timeline-date'> {ev[1]} </div>
                             <div className='resume-timeline-location'> {ev[2]} </div>
                             <div className='resume-timeline-description'> {ev[3]} </div>

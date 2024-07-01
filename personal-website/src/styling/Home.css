@@ -1,9 +1,10 @@
 #root {
-    height: 85%;
+    max-height: 70%;
+    max-width: 100%;
 }
 
 .home {
-    padding: 20px;
+    padding: 30px;
     display: flex;
     flex-direction: column;
     height: 100%;
@@ -15,7 +16,7 @@
 }
 
 .home-photo {
-    width: 450px;
+    width: 400px;
 }
 
 .home-text-container {
@@ -56,12 +57,11 @@
 }
 
 .home-social-media {
+    position: absolute;
+    bottom: 15px;
+    right: 20px;
     display: flex;
-    flex-direction: column;
-    align-items: flex-end;
-    justify-content: flex-end;
     padding-right: 30px;
-    height: 20%;
     visibility: hidden;
     animation: 1s ease-in-out 0.4s 1 forwards slideUp;
 }
@@ -79,7 +79,7 @@
 .home-icon-container {
     display: flex;
     flex-direction: row;
-    padding-right: 20px;
+    /* padding-right: 20px; */
 }
 
 @keyframes slideUp {
@@ -94,4 +94,67 @@
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .home-main-content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .home-photo {
+        width: 90%;
+    }
+
+    .home-title {
+        font-size: 8vw;
+        width: fit-content;
+
+    }
+
+    .home-regular-text {
+        font-size: 3vw;
+        width: fit-content;
+        width: 80%;
+        text-align: center;
+    }
+
+    .home {
+        padding: 10px;
+    }
+
+    .home-icon {
+        margin-left: 5vw;
+        width: 5vw;
+    }
+
+    .home-photo-container {
+        justify-content: center;
+        width: 50%;
+        margin-top: 20px;
+    }
+
+    .home-icon-container {
+        padding-right: 20px;
+    }
+
+    .home-text-container {
+        margin-top: 30px;
+        padding-left: 20px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home-social-media {
+        padding: 0px;
+        position: absolute;
+        bottom: 2vh;
+        right: 2vw;
+    }
+
 }
